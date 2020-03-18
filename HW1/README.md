@@ -9,10 +9,9 @@
 程式輸出 csv 檔，檔名為``本金平均攤還試算利息.csv``，即可查閱。
 檔案如下圖：
 
-<center>
+<p align="center">
 <img src="https://i.imgur.com/Jl37vPq.png" width="350" >
-</center>
-
+</p>
 若要用 Excel 打開 csv 檔需注意格式問題，可按照[此頁步驟](https://https://www.managertoday.com.tw/articles/view/55615)選擇適當的編碼與分隔方式檢閱。
 
 
@@ -65,6 +64,6 @@ with open('本金平均攤還試算利息.csv', 'w', newline='',encoding='utf-8'
 
 ## 流程圖
 
-<center>
+<p align="center">
 <img src="https://i.imgur.com/NIKZC3S.png" width="350" >
-</center>
+</p>
