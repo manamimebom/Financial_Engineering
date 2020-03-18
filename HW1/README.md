@@ -9,7 +9,9 @@
 程式輸出 csv 檔，檔名為``本金平均攤還試算利息.csv``，即可查閱。
 檔案如下圖：
 
-![本金平均攤還試算利息.csv](https://i.imgur.com/Jl37vPq.png=10x)
+<center>
+<img src="https://i.imgur.com/Jl37vPq.png" width="350" >
+</center>
 
 若要用 Excel 打開 csv 檔需注意格式問題，可按照[此頁步驟](https://https://www.managertoday.com.tw/articles/view/55615)選擇適當的編碼與分隔方式檢閱。
 
@@ -18,7 +20,8 @@
 
 首先把簡單輸入跟計算的部分完成。在這邊遇到的問題是，不太確定參考網頁的小數如何進位，導致最後的金額有些許出入，不過稍微觀察一下就可以解決了。
 
-```python=
+```python
+payment_p = [math.ceil(principal/period)]
 payment_i = []
 payment_total = []
 for t in range(period):
@@ -38,7 +41,7 @@ for t in range(period):
 這邊有個偷吃步，其實觀察一下參考網頁的程式碼，就能找到他們大概排除了哪些例外情形。
 以下示範輸入本金的部分：
 
-```python=
+```python
 principal = input('請輸入本金（萬元）:')
 while True:
     try:
@@ -53,7 +56,7 @@ while True:
 
 最後是輸出的部分。本來想要直接在程式執行頁面輸出結果，考慮到排版及閱讀難易度的問題，最後選擇輸出成 csv 檔。
 
-```python=
+```python
 import csv
 with open('本金平均攤還試算利息.csv', 'w', newline='',encoding='utf-8') as csvfile:
     writer = csv.writer(csvfile)
@@ -62,5 +65,6 @@ with open('本金平均攤還試算利息.csv', 'w', newline='',encoding='utf-8'
 
 ## 流程圖
 
-
-![](https://i.imgur.com/NIKZC3S.png)
+<center>
+<img src="https://i.imgur.com/NIKZC3S.png" width="350" >
+</center>
