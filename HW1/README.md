@@ -12,7 +12,8 @@
 <p align="center">
 <img src="https://i.imgur.com/Jl37vPq.png" width="350" >
 </p>
-若要用 Excel 打開 csv 檔需注意格式問題，可按照[此頁步驟](https://https://www.managertoday.com.tw/articles/view/55615)選擇適當的編碼與分隔方式檢閱。
+
+若要用 Excel 打開 csv 檔需注意格式問題，可按照[此頁步驟](https://www.managertoday.com.tw/articles/view/55615) 選擇適當的編碼與分隔方式檢閱。
 
 
 ## 學習歷程
