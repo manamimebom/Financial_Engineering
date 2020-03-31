@@ -1,8 +1,15 @@
 作業一：本金平均攤還試算
 ===
+## 大綱
+- [作業說明](#作業說明)
+- [使用說明](#使用說明)
+- [學習歷程](#學習歷程)
+- [流程圖](#流程圖)
 
 ## 作業說明
+
 完成本金平均攤還試算，參考：https://ttc.scu.org.tw/memdca1.htm
+
 ## 使用說明
 
 執行 [CAM.ipynb](https://github.com/manamimebom/Financial_Engineering/blob/master/HW1/CAM.ipynb) 檔案，依照指示分別輸入本金、期數（年）、利率。
@@ -14,7 +21,6 @@
 </p>
 
 若要用 Excel 打開 csv 檔需注意格式問題，可按照[此頁步驟](https://www.managertoday.com.tw/articles/view/55615)選擇適當的編碼與分隔方式檢閱。
-
 
 ## 學習歷程
 
