@@ -58,7 +58,7 @@ while True:
 
 ```python
 import csv
-with open('本金平均攤還試算利息.csv', 'w', newline='',encoding='utf-8') as csvfile:
+with open('本金平均攤還試算利息.csv', 'w', newline='', encoding='utf-8') as csvfile:
     writer = csv.writer(csvfile)
     writer.writerows(table1)
 ```
