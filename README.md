@@ -10,5 +10,5 @@ A 2020 Spring course of Department of Economics, NTU.
 
 ## Homework
 
-- [作樂一：本金平均攤還試算](https://github.com/manamimebom/Financial_Engineering/tree/master/HW1)
-- [作樂二：債券報價](https://github.com/manamimebom/Financial_Engineering/tree/master/HW2)
+- [作業一：本金平均攤還試算](https://github.com/manamimebom/Financial_Engineering/tree/master/HW1)
+- [作業二：債券報價](https://github.com/manamimebom/Financial_Engineering/tree/master/HW2)
