@@ -13,6 +13,7 @@
 ## 使用說明
 
 執行 [spot_rate_and_foward_rate.ipynb](https://github.com/manamimebom/Financial_Engineering/blob/master/HW2/spot_rate_and_foward_rate.ipynb) 檔案，依照指示分別輸入債券合約資訊與其他期數債券的即期利率。
+
 程式輸出 csv 檔，檔名為``foward_rate.csv``，即可查閱。
 
 範例檔案如下圖，輸入參考綠角財經筆記：
@@ -26,7 +27,9 @@
 ## 學習歷程
 
 第一步先算出債券的殖利率。有兩種算法，一種是逼近後求近似值，另外一種是上課提到的最佳化。
+
 這裡使用第一種方法，從 coupon rate 開始，嘗試求出債券殖利率。
+
 參考網站：[Bond Yeild Calculator](https://www.calkoo.com/en/ytm-calculator)
 
 ```python
@@ -105,6 +108,6 @@ with open('foward_rate.csv', 'w', newline='', encoding='utf-8') as csvfile:
 
 
 <p align="center">
-<img src="https://i.imgur.com/pE1OYLz.png" width="350" >
+<img src="https://i.imgur.com/pE1OYLz.png" width="150" >
 </p>
 
