@@ -23,10 +23,10 @@ A 2020 Spring course of Department of Economics, NTU.
 | 9 | Fixed-income securities with embedded options and interest rate derivatives | hw5 |
 | 10 | Mortgage-backed securities (MBS) |  |
 | 11 | Numerical methods - Monte Carlo methods |  |
-| 12 | (Midterm Exam) |  |
+| 12 | Fisrt Quiz |  |
 | 13 | Numerical methods - Quasi-Monte Carlo method |  |
 | 14 | Numerical methods - Solving partial differential equations |  |
 | 15 | Numerical methods - Yield curve fitting |  |
-| 16 | (Final Exam) |  |
+| 16 | Second Quiz |  |
 | 17 | GARCH models |  |
 | 18 | Interest rate models and calibration |  |
