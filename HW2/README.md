@@ -19,7 +19,7 @@
 範例檔案如下圖，輸入參考綠角財經筆記：
 
 <p align="center">
-<img src="https://i.imgur.com/vFk2NxT.png" width="350" >
+<img src="https://i.imgur.com/r84jhYM.png" width="350" >
 </p>
 
 若要用 Excel 打開 csv 檔需注意格式問題，可按照[此頁步驟](https://www.managertoday.com.tw/articles/view/55615)選擇適當的編碼與分隔方式檢閱。

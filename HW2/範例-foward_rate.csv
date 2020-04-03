@@ -1,5 +1,5 @@
 Input
-Presen Value,1029.1
+Present Value,1029.1
 Par Value,1000.0
 Years to Maturity,1.5
 Number of Payments per Year,2
@@ -7,7 +7,7 @@ Number of Payments per Year,2
 YTM,1.5008%
 
 Spot Rate Table
-Period,0.5,1.0,1.5
+Year,0.5,1.0,1.5
 Spot Rate,1.0%,2.0%,3.0015%
 
 Foward Rate Table
