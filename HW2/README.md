@@ -36,7 +36,10 @@
 def PV_cal(F, C, n, m, r):
     return C * (1 - (1 + r/m)**(-n*m)) / (r/m) + F / (1 + r/m)**(n*m)
 
-
+ytm = CouponRate
+period = int(Year*PaymentCnt)
+if ytm == 0.0:
+    ytm += 1e-8
 while 1:
     pv = PV_cal(Par, Coupon, Year, PaymentCnt, ytm)
     if abs(Price - pv) <= 0.001:
