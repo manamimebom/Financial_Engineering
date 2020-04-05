@@ -8,7 +8,7 @@ A 2020 Spring course of Department of Economics, NTU.
 - 學號: B06705025
 - 系級: 資管三
 
-## Homework
+## Syllabus
 
 | Week | Topics | Homework |
 | ---- | ------ | -------- |
