@@ -28,7 +28,7 @@ What is the call/put value? Or what is the PV of the expected payoff at expirati
 
 執行 [bopm.ipynb](https://github.com/manamimebom/Financial_Engineering/blob/master/HW3/bopm.ipynb) 檔案，依照指示分別輸入股票現價、上漲及下跌倍率、無風險利率（債券利率）、選擇權履約價及期數。
 
-程式最終的 Call/Put Value。
+程式輸出最終的 Call/Put Value。
 
 <p align="right">
     <a href="#目錄" class="btn btn-primary">
