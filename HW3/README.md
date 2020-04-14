@@ -32,17 +32,17 @@ What is the call/put value? Or what is the PV of the expected payoff at expirati
 
 以下為範例結果：
 
-```
+`
 Call value is 85.069.
 Put value is 11.875.
-```
+`
 
 <p align="center">
-<img src="https://github.com/manamimebom/Financial_Engineering/blob/master/HW3/src/C_tree.png" width="150" >
+<img src="https://github.com/manamimebom/Financial_Engineering/blob/master/HW3/src/C_tree.png" width="600" >
 </p>
 
 <p align="center">
-<img src="https://github.com/manamimebom/Financial_Engineering/blob/master/HW3/src/P_tree.png" width="150" >
+<img src="https://github.com/manamimebom/Financial_Engineering/blob/master/HW3/src/P_tree.png" width="600" >
 </p>
 
 <p align="right">
@@ -59,9 +59,8 @@ Put value is 11.875.
 
 首先如前段說明，輸入選擇權資訊，並計算出額外資訊如 Gross Return 與 Probability。
 
-```省略輸入的部分```
-
 ```Python
+//省略輸入的部分
 R = round(math.exp(r), 2)
 p = (R - d)/(u - d)
 ```
