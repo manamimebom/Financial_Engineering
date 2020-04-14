@@ -28,7 +28,22 @@ What is the call/put value? Or what is the PV of the expected payoff at expirati
 
 執行 [bopm.ipynb](https://github.com/manamimebom/Financial_Engineering/blob/master/HW3/bopm.ipynb) 檔案，依照指示分別輸入股票現價、上漲及下跌倍率、無風險利率（債券利率）、選擇權履約價及期數。
 
-程式輸出最終的 Call/Put Value。
+程式輸出最終的 Call/Put Value，並繪出 binomial process for the call/put price。
+
+以下為範例結果：
+
+```
+Call value is 85.069.
+Put value is 11.875.
+```
+
+<p align="center">
+<img src="https://github.com/manamimebom/Financial_Engineering/blob/master/HW3/src/C_tree.png" width="150" >
+</p>
+
+<p align="center">
+<img src="https://github.com/manamimebom/Financial_Engineering/blob/master/HW3/src/P_tree.png" width="150" >
+</p>
 
 <p align="right">
     <a href="#目錄" class="btn btn-primary">
@@ -44,7 +59,7 @@ What is the call/put value? Or what is the PV of the expected payoff at expirati
 
 首先如前段說明，輸入選擇權資訊，並計算出額外資訊如 Gross Return 與 Probability。
 
-```這邊省略輸入的部分```
+```省略輸入的部分```
 
 ```Python
 R = round(math.exp(r), 2)
@@ -73,6 +88,34 @@ for i in reversed(range(n)):
 print('Call value is ' + str(C_tree[0,0]) + '.')
 print('Put value is ' + str(P_tree[0,0]) + '.')
 ```
+
+最後畫出 binomial process for the call/put price。
+
+```python
+x = []
+y = []
+s = []
+for i in range(n+1):
+    for j in range(i+1):
+        x.append(i)
+        y.append(j-i/2)
+        s.append(C_tree[i, j])
+# plt.figure(figsize=(16,16))
+plt.figure(figsize=(8,8))
+for i in range(n):
+    for j in range(i+1):
+        plt.plot([i, i+1], [j-i/2, j-(i+1)/2], alpha = 0.5)
+        plt.plot([i, i+1], [j-i/2, j+1-(i+1)/2], alpha = 0.5)
+
+for i in range(len(x)):
+    plt.text(x[i]-0.1, y[i]-0.05, s[i], bbox=dict(facecolor='White', alpha=0.8, boxstyle='round, pad = 0.2, rounding_size = 0.2'), fontsize=20)
+plt.axis('off')
+plt.title('Call Value Tree', size = 20,loc = 'left')
+# plt.savefig('/C_tree.png')
+plt.show()
+```
+
+
 
 <p align="right">
     <a href="#目錄" class="btn btn-primary">
