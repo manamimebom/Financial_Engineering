@@ -97,7 +97,7 @@ s = []
 for i in range(n+1):
     for j in range(i+1):
         x.append(i)
-        y.append(j-i/2)
+        y.append(i-j-i/2)
         s.append(C_tree[i, j])
 # plt.figure(figsize=(16,16))
 plt.figure(figsize=(8,8))
@@ -105,12 +105,14 @@ for i in range(n):
     for j in range(i+1):
         plt.plot([i, i+1], [j-i/2, j-(i+1)/2], alpha = 0.5)
         plt.plot([i, i+1], [j-i/2, j+1-(i+1)/2], alpha = 0.5)
+        plt.text((i+i+1)/2, (j-i/2+j-(i+1)/2)/2, 'd', size = 16)
+        plt.text((i+i+1)/2, (j-i/2+j+1-(i+1)/2)/2, 'u', size = 16)
 
 for i in range(len(x)):
     plt.text(x[i]-0.1, y[i]-0.05, s[i], bbox=dict(facecolor='White', alpha=0.8, boxstyle='round, pad = 0.2, rounding_size = 0.2'), fontsize=20)
 plt.axis('off')
 plt.title('Call Value Tree', size = 20,loc = 'left')
-# plt.savefig('/C_tree.png')
+# plt.savefig('C_tree.png')
 plt.show()
 ```
 
