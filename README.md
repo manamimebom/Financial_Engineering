@@ -18,7 +18,7 @@ A 2020 Spring course of Department of Economics, NTU.
 | 4 | Option pricing theory and its wide-ranging applications |  |
 | 5 | The combinatorics of random walks | [Binomial Option Pricing Model Calculator](https://github.com/manamimebom/Financial_Engineering/tree/master/HW3) |
 | 6 | Martingale, Brownian motion, stochastic calculus, and Ito integral |  |
-| 7 | Risk-neutral valuation | hw4 |
+| 7 | Risk-neutral valuation | [Black-Scholes-Merton Model Calculator](https://github.com/manamimebom/Financial_Engineering/tree/master/HW4) |
 | 8 | Risk management |  |
 | 9 | Fixed-income securities with embedded options and interest rate derivatives | hw5 |
 | 10 | Mortgage-backed securities (MBS) |  |
