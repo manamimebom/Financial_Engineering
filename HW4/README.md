@@ -65,11 +65,7 @@ If r = 6%, what is the value of a European put and call option with an exercise 
 <img src="https://github.com/manamimebom/Financial_Engineering/blob/master/HW4/src/bsmodel.png" width="500" >
 </p>
 
-加入股利的話，就是 Black-Scholes-Merton Model。
-
-<p align="center">
-<img src="https://github.com/manamimebom/Financial_Engineering/blob/master/HW4/src/dividend_case.png" width="500" >
-</p>
+要計算 Black-Scholes-Merton Model 的話，須將 S 替算成 S_hidden = S - D，D 為股利現值總和。
 
 首先如前段說明，輸入選擇權資訊，並依照 Black-Scholes-Merton Model 計算如下。
 
