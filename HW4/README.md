@@ -42,13 +42,22 @@ Call value is 12.806.
 
 這裡預設股利皆為3個月發放一次，因此最多一年可以拿四次股利。
 
+<p align="right">
+    <a href="#目錄" class="btn btn-primary">
+        &uarr; 回到目錄
+    </a>
+</p>
 
 ## 學習歷程
 
 這次的作業主要是實作 Black-Scholes Model，並加入有股利之前提（即為 Black-Scholes-Merton Model）。
 
 <p align="center">
-<img src="https://github.com/manamimebom/Financial_Engineering/blob/master/HW4/src/bsmodel.png" width="150" >
+<img src="https://github.com/manamimebom/Financial_Engineering/blob/master/HW4/src/bsmodel.png" width="500" >
+</p>
+
+<p align="center">
+<img src="https://github.com/manamimebom/Financial_Engineering/blob/master/HW4/src/dividend_case.png" width="500" >
 </p>
 
 首先如前段說明，輸入選擇權資訊，並依照 Black-Scholes-Merton Model 計算如下。
