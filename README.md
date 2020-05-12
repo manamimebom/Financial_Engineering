@@ -20,7 +20,7 @@ A 2020 Spring course of Department of Economics, NTU.
 | 6 | Martingale, Brownian motion, stochastic calculus, and Ito integral |  |
 | 7 | Risk-neutral valuation | [Black-Scholes-Merton Model Calculator](https://github.com/manamimebom/Financial_Engineering/tree/master/HW4) |
 | 8 | Risk management |  |
-| 9 | Fixed-income securities with embedded options and interest rate derivatives | hw5 |
+| 9 | Fixed-income securities with embedded options and interest rate derivatives | [Option Pricing with Hull White Model](https://github.com/manamimebom/Financial_Engineering/tree/master/HW5) |
 | 10 | Mortgage-backed securities (MBS) |  |
 | 11 | Numerical methods - Monte Carlo methods |  |
 | 12 | Fisrt Quiz |  |
