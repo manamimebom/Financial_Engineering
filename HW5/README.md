@@ -12,11 +12,11 @@
 
 對 Hull White Model 模擬 Short Rate。
 
-將 Short Rate 帶入 Geometric Brownian Motion，$r$ 換成 $r(t)$ 模擬股價。
+將 Short Rate 帶入 Geometric Brownian Motion，r 換成 r(t) 模擬股價。
 
 自訂選擇權履約價，對每一條 path 計算出到期日時的 PayOff，
 
-對所有 Path 的 PayOff 進行期望值計算，並折現回 $t=0$ 的時間點，
+對所有 Path 的 PayOff 進行期望值計算，並折現回 t=0 的時間點，
 
 計算出 Call Price & Put Price。
 
@@ -110,7 +110,7 @@ plt.xlabel('Year')
 plt.ylabel('Short rate')
 plt.show()
 ```
-將 Short Rate 帶入 Geometric Brownian Motion，$r$ 換成 $r(t)$ 模擬股價。
+將 Short Rate 帶入 Geometric Brownian Motion，r 換成 r(t) 模擬股價。
 
 ```python
 def genBrownPath (T, mu, sigma, S0, dt):
@@ -148,7 +148,7 @@ for i in range(num_paths - 1):
         put.append(payoff + np.exp(-1.0*r*i)*payoff)
 ```
 
-對所有 Path 的 PayOff 進行期望值計算，並折現回 $t=0$ 的時間點，計算出 Call Price & Put Price。
+對所有 Path 的 PayOff 進行期望值計算，並折現回 t=0 的時間點，計算出 Call Price & Put Price。
 
 ```python
 print('Put value is ' + str(round(np.mean(put), 3)) + '.')
